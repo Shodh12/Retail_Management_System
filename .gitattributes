@@ -1,0 +1,11 @@
+# Normalize line endings
+* text=auto
+
+# Keep shell scripts LF
+*.sh text eol=lf
+mvnw text eol=lf
+
+# Windows scripts CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
